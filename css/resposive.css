@@ -28,13 +28,15 @@
     .banner-text{
       align-items: center;
       justify-content: center;
-      padding: auto;
+      text-align:left
 
     }
     .banner{
       flex-direction: column;
       align-items: center;
     }
-    
+    .img-banner{
+      width: 100%;
+    }
     
  }
