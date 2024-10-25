@@ -1,0 +1,118 @@
+ @import url('https://fonts.cdnfonts.com/css/miama');
+ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+ @import url('https://fonts.cdnfonts.com/css/miama');
+
+ .inter-fobt {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+  }
+  body{
+    background-color: black;
+ 
+    margin: 0,auto;
+    padding: 0%;
+  
+  }
+ /* header-part */
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+  
+   
+  }
+  .navbar-text{
+    font-style:italic;
+    font-size: 36px;
+   color: #E6533C;
+  }
+  .nav-link{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+  
+
+  }
+  .nav-item,.nav-item>a{
+    list-style: none;
+    margin-right: 30px;
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    align-items: center;
+  }
+  .nav-hamburger{
+    display: none;
+  }
+  .btn-home{
+    background:  #E6533C;  
+    border-radius: 50px;
+    border:none;
+   color: white;
+   padding: 12px;
+
+  }
+ /* bannar-part */
+ .navbar,.banner{
+  max-width: 1440px;
+  margin: 0,auto;
+  background-color: rgb(20, 20, 20);
+ 
+
+ }
+  .banner-text{
+    color:white;
+    font-size: 78px;
+  line-height: 70px;
+    letter-spacing: 0%; 
+    text-align: justify;
+   
+  }
+  .shape{
+    font-family: 'Miama', sans-serif;
+    font-size: 78px;    
+    font-weight: 500;
+  }
+  .banner,.navbar{
+    color: white;
+    display: flex;  
+    justify-content: space-between;
+  }
+  .banner-p{
+    padding-top: -28px;
+    color: #FFFFFF;
+    letter-spacing: 0.5px;  
+  }
+  .banner-button{
+    padding: 20px;
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+   background-color: #E6533C;
+   color: #FFFFFF;
+   border: none;
+    
+  }
+  .banner-button1{
+    padding: 20px;
+    border-radius: 42px;
+    width: 224px;
+    height: 54px;
+    background-color: black;
+    color: #FFFFFF;
+    border: 2px solid ;
+  }
+  .img-banner{
+    width: 40%;
+    height: 580px;
+    image-resolution: from-image;
+    box-shadow: black;
+  
+  }
+
+  
+                                                
+
+                
