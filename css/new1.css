@@ -1,0 +1,197 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+.body {
+   font-family: "Inter", sans-serif;
+   font-optical-sizing: auto;
+   font-weight:400;
+   font-style: normal;
+ }
+/* header-part */
+*{
+  background-color: rgb(33, 32, 32);
+    margin: 0;
+    padding: 0;
+   
+
+}
+/* .navvo{
+     align-items: center;
+     padding: 8%;
+     padding-top: 0%;
+    
+    
+      width: 1440px; 
+}  */
+
+.navbar{
+    display: flex;
+    justify-content: space-between; 
+    margin: 0 auto;
+   padding: 20px;  
+   max-width: 1440px;
+ 
+  }
+ 
+  .navbar-text{
+    font-style:italic;
+    font-size: 36px;
+   color: #E6533C;
+  }
+  .nav-link{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+  
+
+  }
+  .nav-item,.nav-item>a{
+    list-style: none;
+    margin-right: 30px;
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    align-items: center;
+  }
+  .nav-hamburger{
+    display: none;
+  }
+  .btn-home{
+    background:  #E6533C;  
+    border-radius: 50px;
+    border:none;
+   color: white;
+   padding: 12px;
+
+  }
+  .banner{
+    color: white;
+    display: flex;  
+   align-items: center;
+   justify-content: center;
+   justify-content:space-around;
+   max-width: 1440px;
+  
+   
+  }
+  .banner-text{
+    color:white;
+    font-size: 78px;
+  line-height: 70px;
+    letter-spacing: 0%; 
+    text-align: justify;
+   
+  }
+  .banner-p{
+    padding-top: 15px;
+    color: #FFFFFF;
+    letter-spacing: 0.5px;  
+  }
+  /* banner */
+
+ 
+
+ 
+  .shape{
+    font-family: 'Miama', sans-serif;
+    font-size: 78px;    
+    font-weight: 500;
+  }
+  
+ 
+  .banner-button{
+    padding: 20px;
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+   background-color: #E6533C;
+   color: #FFFFFF;
+   border: none;
+    
+  }
+  .banner-button1{
+    padding: 20px;
+    border-radius: 42px;
+    width: 224px;
+    height: 54px;
+    background-color: black;
+    color: #FFFFFF;
+    border: 2px solid ;
+  }
+  .img-banner{
+    width: 349px;
+    height: 580px;
+    image-resolution: from-image;
+    box-shadow: black;
+    padding-top: 35px;
+  }
+  .main-text{
+    text-align: center;
+    font-size: 48px;
+    color: white;
+    padding-top: 40px;
+
+  }
+  .main-text-p{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+  }
+  .main-content{
+    display: flex;   
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+    width: 1260px;
+    justify-content: space-around;
+    padding: 50px;
+    padding-bottom: 15px;     
+  }
+  .shadow-part{
+    width: 1000px;
+    height: 371px;
+    border-radius: 5%;
+    padding: 20px;
+margin-left: 10%;
+  justify-content: center;
+ align-items: center;
+
+text-align: center;
+/* background-color:rgb(57, 52, 52); */
+box-shadow: 10px 10px lightblue;
+
+  }
+  .table-bm1{
+    margin-left: 10%;
+  
+
+  }
+  table {
+    border:2px solid;
+    background-color: #4e4c4c;
+  }
+  /* frm */
+  label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+
+ 

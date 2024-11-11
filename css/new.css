@@ -16,10 +16,12 @@
   
   }
  /* header-part */
+
   .navbar{
     display: flex;
     justify-content: space-between;
    align-items: center;
+
   
    
   }
@@ -110,6 +112,16 @@
     image-resolution: from-image;
     box-shadow: black;
   
+  }
+  .second-part-h1{
+    color:white;
+    font-size: 48px;
+  line-height: 70px;
+  justify-content: center;
+  align-items: center;
+ 
+    text-align: justify;
+
   }
 
   

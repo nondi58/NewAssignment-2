@@ -1,5 +1,31 @@
  /* responsive-site-header */
- @media screen and(max-width:375px) {
+ @media only screen and(max-width:375px) {
+  .navbar,.nav-link,.nav-list{
+    
+    display: flex;
+    align-items: center;
+   
+    
+   }
+   .navbar-text{
+     align-items: center;
+
+   }
+   .nav-hamburger{
+     display:block;
+     padding-right: 20px;
+       align-items: center;
+   
+   }
+   .nav-item,.nav-item>a{
+    display: none;
+   
+   }
+ 
+
+
+
+
   
  }
  @media only screen and (max-width: 576px) {
@@ -24,19 +50,21 @@
      display: none;
     
     }
-    /* banner */
+    .banner{
+      display: grid;
+      align-items: center;
+    }
+   
     .banner-text{
       align-items: center;
       justify-content: center;
       text-align:left
 
     }
-    .banner{
-      flex-direction: column;
-      align-items: center;
-    }
+    
     .img-banner{
-      width: 100%;
+      width:auto;
+      padding-top: 55px;
     }
     
  }
